@@ -1,1 +1,9 @@
 /* Write your CSS here */
+.not-found-image {
+  width: 30vw;
+  height: 60vh;
+}
+
+.description {
+  color: #616e7c;
+}
