@@ -1,1 +1,27 @@
 /* Write your CSS here */
+.home-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image-sm {
+}
+
+@media screen and (min-width: 768px) {
+  .home-image-sm {
+    display: none;
+  }
+}
+
+.home-image-lg {
+  min-width: 75vw;
+  max-height: 90vh;
+}
+
+@media screen and (max-width: 767px) {
+  .home-image-lg {
+    display: none;
+  }
+}
